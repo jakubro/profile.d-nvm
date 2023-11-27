@@ -14,11 +14,11 @@ else
 
   cd ~/.nvm || exit 1
 
-  git fetch --tags origin || exit 1
+  git fetch --quiet --tags origin || exit 1
 
   nvm_hash=$(git rev-list --tags --max-count=1) || exit 1
   nvm_version=$(git describe --abbrev=0 --tags --match "v[0-9]*" "$nvm_hash") || exit 1
 
-  git checkout "$nvm_version" || exit 1
+  git checkout --quiet "$nvm_version" || exit 1
 
 fi
