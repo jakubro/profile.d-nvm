@@ -59,11 +59,6 @@ The plugin:
 3. Sets up the NVM_DIR environment variable
 4. Loads nvm and its bash completion on shell initialization
 
-## Requirements
-
-- Git (automatically installed by profile.d if missing)
-- curl (automatically installed by profile.d if missing)
-
 ## Contributing
 
 If you would like to contribute to this project, please feel free to submit a pull request or open an issue for
