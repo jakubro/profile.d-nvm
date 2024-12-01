@@ -25,7 +25,7 @@ PLUGINS=(
 2. Run the installation commands:
 
 ```bash
-profile.d-update
+profile.d-install
 . ~/.bashrc
 ```
 
@@ -55,7 +55,7 @@ nvm exec 18.0.0 node --version
 The plugin:
 
 1. Installs nvm in `~/.nvm` during the installation phase
-2. Updates nvm to the latest version when running `profile.d-update`
+2. Updates nvm to the latest version when running `profile.d-install`
 3. Sets up the NVM_DIR environment variable
 4. Loads nvm and its bash completion on shell initialization
 

@@ -4,7 +4,7 @@ if [ ! -d ~/.nvm ]; then
 
   log_info "Installing nvm..."
 
-  curl -s https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash || exit 1
+  curl -s https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install | bash || exit 1
 
   log_info "You can safely ignore any instructions printed above"
 
